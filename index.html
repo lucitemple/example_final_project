@@ -17,6 +17,7 @@
 </head>
 
 <body>
+    <!-- TASK FORM -->
   <div class="d-flex justify-content-center my-5">
     <div>
       <div class="row">
@@ -87,9 +88,10 @@
             <div class="row g-2">
               <div class="col">
                 <select class="form-control" id="new-task-status">
-                  <option selected>In Progress</option>
+                  <option selected>To Do</option>
+                  <option>In Progress</option>
+                  <option>Review</option>
                   <option>Done</option>
-                  <option>Pending</option>
                 </select>
               </div>
 
@@ -108,6 +110,7 @@
       </div>
     </div>
   </div>
+  <!-- TASKS DISPLAY -->
 <div class="task-list-container">
       <h3 class="text-center">Tasks:</h3>
       <div class="d-flex justify-content-center">
@@ -143,11 +146,11 @@
               <p class="card-text">
                 Take the glass bottles to the refund machine.
               </p>
-              <p class="card-text">Aaron Byrom</p>
-              <p class="card-text">25/11/2020</p>
+              <p class="card-text">Assigned To: Aaron Byrom</p>
+              <p class="card-text">Due Date: 25/11/2020</p>
               <div class="card-footer row">
                 <div class="col-6">
-                  <p class="card-text"><b>In Progress</b></p>
+                  <p class="card-text"><b>Done</b></p>
                 </div>
                 <div class="col-3">
                   <button id="done-button" class="btn btn-outline-success">
@@ -166,8 +169,8 @@
             <div class="card-body">
               <h5 class="card-title">Meal Prep</h5>
               <p class="card-text">Make some lunches to prepare for my week.</p>
-              <p class="card-text">Aaron Byrom</p>
-              <p class="card-text">22/11/2020</p>
+              <p class="card-text">Assigned To: Aaron Byrom</p>
+              <p class="card-text">Due Date: 22/11/2020</p>
               <div class="card-footer row">
                 <div class="col-6">
                   <p class="card-text"><b>In Progress</b></p>
@@ -191,11 +194,11 @@
               <p class="card-text">
                 Collect the fresh eggs from the chicken pen.
               </p>
-              <p class="card-text">Robin Klaus</p>
-              <p class="card-text">30/11/2020</p>
+              <p class="card-text">Assigned To: Robin Klaus</p>
+              <p class="card-text">Due Date: 30/11/2020</p>
               <div class="card-footer row">
                 <div class="col-6">
-                  <p class="card-text"><b>In Progress</b></p>
+                  <p class="card-text"><b>To Do</b></p>
                 </div>
                 <div class="col-3">
                   <button id="done-button" class="btn btn-outline-success">
@@ -216,11 +219,11 @@
               <p class="card-text">
                 Continue my work on the shortest path algorithm.
               </p>
-              <p class="card-text">Bhaumik Mehta</p>
-              <p class="card-text">01/01/2021</p>
+              <p class="card-text">Assigned To: Bhaumik Mehta</p>
+              <p class="card-text">Due Date: 01/01/2021</p>
               <div class="card-footer row">
                 <div class="col-6">
-                  <p class="card-text"><b>In Progress</b></p>
+                  <p class="card-text"><b>Review</b></p>
                 </div>
                 <div class="col-3">
                   <button id="done-button" class="btn btn-outline-success">
